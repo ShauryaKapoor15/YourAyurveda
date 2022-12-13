@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
+
+body{
+	background-color: #D7ECB7;
+}
+
+
+#headersmall {
+  font-family: 'fredericka the Great';
+  float: left;
+  padding: 20px 10px 0px 20px;
+  color: black;
+  text-align: center;
+  font-size: 100px; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.8s;
+}
+
+
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 35px;
+    height: 30%;
+}
+
+/*nav {
+	margin-top: 20vw;
+	padding-left: 1vw;
+	background-color: lightblue; 
+}*/
+
+.img {
+	float: right;
+	width: 300px;
+	padding-left: 55px;
+	transition: all 1s;
+}
+
+.big:hover{
+	width: 300px;
+}
+
+header{
+	padding: 20px;
+	overflow: hidden;
+	text-decoration-color: orange;
+
+}
+
+/* 1st paragraph style*/
+
+section{
+	overflow: hidden;
+	width: 100%;
+	margin-top: 50vw;
+    font-family: 'Bubbler One';
+    font-size: 14px;
+    background-size: cover;
+    width: 100%;
+    height: 15vw;
+}
+
+
+
+#IntroBig{
+  font-family: 'Bubbler One';
+  color: black;
+  text-align: center;
+  font-size: 14px; 
+  position: fixed;
+  transition: 0.8s;
+  padding: 20px;
+
+}
+
+
+section.highlight { 
+background-color: yellow; 
+}
+
+
+div.Vatta { 
+	float: left; 
+	width: 30%; 
+	background-color: lightblue;
+} 
+div.Pitta{ 
+	float: left; 
+	width: 30%;
+	background-color: coral; 
+} 
+div.Kapha { 
+	float: right; 
+	width: 30%; 
+	background-color: rosybrown;
+}
+
+.img{
+	float: left;
+	width: 200px;
+	gap: 20px;
+}
+
+.overflow{
+	padding: 20px;
+	height: 100px;
+	overflow: scroll;
+	float: left;
+}
+
+.vertical{
+	padding: 20px;
+	width: 100px;
+	overflow: scroll auto;
+	float: left;
+}
+
+
